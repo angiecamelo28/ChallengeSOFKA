@@ -1,0 +1,35 @@
+;P;¿Cuántos continentes hay en el planeta tierra?
+5 continentes
+6 continentes
+7 continentes
+8 continentes 
+;R;3
+10
+;P;¿Cuáles son los colores primarios?
+Amarillo, azul y rojo
+Amarillo, verde y azul
+Rojo, azul, naranja
+Rojo, amarillo, rosado
+;R;1
+10
+;P;¿Cuál es el tercer planeta del sistema solar?
+Mercurio
+Venus
+Tierra
+Marte
+;R;3
+10
+;P;¿Cuál es la fórmula química del agua?
+H20
+02H
+H202
+02H2
+;R;1
+10
+;P;¿Cuál es el libro más vendido de la historia?
+Don Quijote
+El principito
+La Biblia
+El señor de los anillos
+;R;3
+10

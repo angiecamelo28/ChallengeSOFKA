@@ -1,0 +1,35 @@
+;P;¿Cuál es el río más largo del mundo?
+Río Nilo
+Río Amazonas
+Rio Misisipi
+Río Amarillo 
+;R;2
+20
+;P;¿Cómo se llama la ciencia que estudia las plantas?
+Botánica
+Zootécnica
+Biología
+Ciencias para las plantas
+;R;1
+20
+;P;¿Cómo se llaman los animales que comen tanto vegetales como carne?
+Ovíparos
+Carnívoros
+Omnívoros
+Vivíparos
+;R;3
+20
+;P;¿Cuál se llama la sustancia que da color a las hojas de las plantas?
+Heterósido
+Feromona
+Fitohormona
+Clorofila
+;R;4
+20
+;P;¿De qué está recubierto el cuerpo de los peces?
+Piel
+Escamas
+Plumas
+Espinas
+;R;2
+20

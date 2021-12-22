@@ -1,0 +1,35 @@
+;P;¿Qué sustancia es capaz de disolver el oro?
+Reactivo de Tollens
+Agua Regia
+Las sales de permanganato
+Ácido nítrico
+;R;2
+50
+;P;¿Cuál es el lago más profundo del mundo?
+Lago Baikal
+Lago Titicaca
+Lago Vicoria
+Lago Ness
+;R;1
+50
+;P;¿Quién era el dios vikingo de la luz y de la verdad?
+Thor
+Forseti
+Andhrimnir
+Balder
+;R;4
+50
+;P;¿Cómo se llama el salvaje deporte en el que en vez de utilizar una pelota, los jugadores emplean una cabeza de una cabra?
+Buzkashi
+Hurling
+Kabaddi
+Kajahsbdi
+;R;1
+50
+;P;¿Qué es una aféresis?
+Es una expresión breve que resume una observación general o un principio moral.
+Es la supresión de una o más letras al principio de un vocablo.
+Es la repetición del mismo sonido consonante en secuencia.
+Es la repetición de una o más letras al principio de un vocablo.
+;R;2
+50

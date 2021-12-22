@@ -1,0 +1,35 @@
+;P;¿Qué famoso cantante estadounidense recibe el sobrenombre del “Rey del Rock and Roll”?
+Michael Jackson
+Freddie Mercury
+Elvis Presley
+David Bowie
+;R;3
+30
+;P;¿Qué país es el mayor exportador de café del mundo?
+Colombia
+Brasil
+Argentina
+Estados Unidos
+;R;2
+30
+;P;¿Qué animal mata más humanos al año?
+Vaca
+Tiburones
+Mosquitos
+Lobos
+;R;3
+30
+;P;¿En qué obra de Shakespeare encontramos la célebre cita ‘Ser o no ser, esa es la cuestión’?
+Hamlet
+Romeo y Julieta
+La tempestad
+Noche de reyes
+;R;1
+30
+;P;¿En qué año llegaron los colonizadores españoles a América?
+1942
+1492
+1499
+1433
+;R;2
+30

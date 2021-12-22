@@ -1,0 +1,35 @@
+;P;¿Cuál es la ciudad italiana conocida como “la novia del mar”?
+Venecia
+Roma
+Milán
+Nápoles
+;R;1
+40
+;P;¿De qué nacionalidad fue la primera mujer en ir al espacio?
+Rusa
+Alemana
+Estadounidense
+China
+;R;1
+40
+;P;¿Dónde se elige al nuevo Papa?
+Plaza Papal
+Vaticano
+La capilla Sixtina
+Sainte Chapelle
+;R;3
+40
+;P;¿Cuál es la capital de Eslovenia?
+Piran
+Máribor
+Liubliana
+Novo Mesto
+;R;3
+40
+;P;¿Cuál es la capital de Marruecos?
+Fez
+Mequinez
+Marrakech
+Rabat
+;R;4
+40

@@ -84,12 +84,12 @@ public class Test {
                 if (p.comprobarRespuesta(respuesta)) {
                     System.out.println("Has acertado :)");
                     puntosTotales += p.getPuntos();
-                    System.out.println("Puntos: "+puntosTotales);
                 } else {
                     
                     System.out.println("No has acertado :(");
                     System.out.println("\n---Reinicio del juego-- ");
                     reiniciarTest();
+                    realizarTest(preguntasT);
                 }
 
                 i++;

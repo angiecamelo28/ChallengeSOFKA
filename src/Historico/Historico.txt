@@ -1,0 +1,4 @@
+Nombre=Angie, puntaje=150
+
+Nombre=Juan, puntaje=150
+

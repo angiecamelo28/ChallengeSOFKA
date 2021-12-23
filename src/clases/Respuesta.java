@@ -1,11 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package clases;
 
 /**
- *
+ ** Clase que hace referencia a cada una de las respuestas de las preguntas 
+ * del Challenge.
  * @author Angie
  */
 public class Respuesta {

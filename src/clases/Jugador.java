@@ -7,24 +7,30 @@ package clases;
 import java.util.List;
 
 /**
- *
+ * Clase que hace referencia al jugador del Challenge.
  * @author Angie
  */
 public class Jugador {
     
     private String nombre;
     private int puntaje;
-    private List<String> premios;
+    private String premio;
 
-    public Jugador(String nombre, int puntaje) {
+    public Jugador(String nombre, int puntaje, String premio) {
         this.nombre = nombre;
         this.puntaje = puntaje;
+        this.premio = premio;
     }
 
     @Override
     public String toString() {
-        return "Nombre=" + nombre + ", puntaje=" + puntaje ;
+        return "Nombre:" + nombre + ", Puntaje:" + puntaje + ", Premio:" + premio;
     }
+
+    
+    
+    
+    
     
     
 }

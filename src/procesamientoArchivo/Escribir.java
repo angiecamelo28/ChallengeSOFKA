@@ -1,18 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package procesamientoArchivo;
 
 import java.io.FileWriter;
 import java.io.PrintWriter;
 
 /**
- *
+ *Clase para escribir o sobreescribir información en archivo de texto.
  * @author Angie
  */
 public class Escribir {
 
+    /**
+     * Por medio del File y Print Wirter se recorre un archivo de texto
+     * y se escribe o sobreescribe información ingresada.
+     * @param informacion
+     * @throws Exception 
+     */
     public void escribirArchivo(String informacion) throws Exception {
         FileWriter fichero = null;
         PrintWriter pw = null;
@@ -20,7 +22,7 @@ public class Escribir {
             fichero = new FileWriter("src//Historico//Historico.txt",true);
             pw = new PrintWriter(fichero);
             //Escribe la información que le ingresa
-            pw.println(informacion+"\n");
+            pw.println(informacion);
 
         } catch (Exception e) {
             e.printStackTrace();

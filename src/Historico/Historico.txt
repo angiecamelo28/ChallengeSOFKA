@@ -1,4 +1,3 @@
-Nombre=Angie, puntaje=150
-
-Nombre=Juan, puntaje=150
-
+Nombre:Angie, Puntaje:150, Premio:Oro
+Nombre:Juan, Puntaje:10, Premio:Oro
+Nombre:Robert, Puntaje:150, Premio:Oro

@@ -1,13 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package clases;
 
 import listaDinamica.ListaDinamica;
 
 /**
- * Clase base pregunta, en esta,
+ * Clase que hace referencia a cada una de las preguntas del Challenge.
  * @author Angie
  */
 public class Pregunta {
@@ -16,15 +12,9 @@ public class Pregunta {
     private String pregunta;
     private ListaDinamica<Respuesta> respuestas;
     private int puntos;
-
-    public Pregunta(String categoria,String pregunta, ListaDinamica<Respuesta> respuestas, int puntos) {
-        this.pregunta = pregunta;
-        this.respuestas = respuestas;
-        this.puntos = puntos;
-        this.categoria = categoria;
-    }
-
-    public Pregunta(String pregunta, ListaDinamica<Respuesta> respuestas, int puntos) {
+    
+    public Pregunta(String pregunta, ListaDinamica<Respuesta> respuestas, 
+            int puntos) {
         this.pregunta = pregunta;
         this.respuestas = respuestas;
         this.puntos = puntos;

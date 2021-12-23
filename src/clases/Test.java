@@ -10,6 +10,13 @@ import java.io.FileReader;
 import java.io.IOException;
 import listaDinamica.ListaDinamica;
 
+/**
+ * Clase controladora principal del juego, en la que se realizan
+ * las validaciones de las preguntas con sus respectivas respuestas y  los 
+ * puntos totales.
+ * @author Angie
+ */
+
 public class Test {
 
     //atributos
@@ -51,11 +58,20 @@ public class Test {
 
     }
 
+    /**
+     * Se reinicia el test, poniendo la pregunta y puntos en cero.
+     */
     public void reiniciarTest() {
         preguntaActual = 0;
         puntosTotales = 0;
     }
 
+    
+    /**
+     * Inicializa el test, aumentando puntos si acierta o reiniciando el test
+     * en caso de que falle.
+     * @param preguntasT preguntas escogidas aleatoriamente de cada categoria
+     */
     public void realizarTest(ListaDinamica<Pregunta> preguntasT) {
 
         //si estan vacias las preguntas, no hacemos nada
@@ -78,7 +94,8 @@ public class Test {
                 p.mostrarPregunta();
 
                 //Pedimos una respuesta
-                respuesta = teclado.pedirIntRango(1, p.getRespuestas().size(), "Introduce la respuesta");
+                respuesta = teclado.pedirIntRango(1, p.getRespuestas().size(), 
+                        "Introduce la respuesta");
 
                 //Comprobamos si es correcta o no
                 if (p.comprobarRespuesta(respuesta)) {
@@ -101,8 +118,20 @@ public class Test {
         System.out.println("Has obtenido " + puntosTotales + " puntos");
 
     }
-
-    public ListaDinamica<Pregunta> cargarFichero(String fichero) throws FileNotFoundException, IOException {
+    
+    
+    /**
+     * Se carga la información de una ruta, en este caso las preguntas.
+     * Verifica si es una pregunta o una respuesta según como inicia y se agrega
+     * a una lista según corresponda. Además se crean sus respectivos objetos.
+     * @param fichero Ruta ingresada
+     * @return Lista con las preguntas encontradas en el fichero
+     * @throws FileNotFoundException Lanza exception en caso de que no se 
+     * encuentre el archivo.
+     * @throws IOException 
+     */
+    public ListaDinamica<Pregunta> cargarFichero(String fichero) throws 
+            FileNotFoundException, IOException {
 
         //Creo el buffer
         BufferedReader br = new BufferedReader(new FileReader(fichero));
@@ -143,7 +172,7 @@ public class Test {
                     }
                 }
 
-                //Si tenemos marcado la pregunta, la respuesta, los puntos y hay entre 2 y 4 opciones
+                //Si tenemos marcado la pregunta, la respuesta, los puntos sean 4
                 if (pregunta && respuesta && puntos && (respuestas.size() == 4)) {
 
                     //Marcamos la respuesta correcta como la correcta
@@ -175,6 +204,28 @@ public class Test {
 
         br.close();
         return preguntas;
+    }
+    
+    /**
+     * Se asigna el premio según el puntaje obtenido en el juego
+     * @param puntaje Puntaje obtenido en el juego
+     */
+    public String asignarPremio(int puntaje){
+        String premio ="";
+        if(puntaje == 150){
+            premio ="Oro"; 
+        }
+        else if(puntaje >= 100 && puntaje < 140){
+           premio ="Plata"; 
+        }
+        else if(puntaje >= 50 && puntaje <= 90){
+           premio ="Bronce"; 
+        }
+        else if(puntaje == 0){
+           premio ="No hay premio"; 
+        }
+        return premio;
+         
     }
 
 }
